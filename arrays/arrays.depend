@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1537738525 source:c:\users\nikit\projects\arrays\main.cpp
+1537741775 source:c:\users\nikit\projects\arrays\main.cpp
 	<iostream>
 	"algorithms.h"
 	"predicates.h"
 
-1537738726 c:\users\nikit\projects\arrays\algorithms.h
+1537741767 c:\users\nikit\projects\arrays\algorithms.h
 
 1537738464 c:\users\nikit\projects\arrays\predicates.h
 
