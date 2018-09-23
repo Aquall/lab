@@ -20,7 +20,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="algorithms.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="predicates.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
