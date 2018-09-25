@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1537745234 source:c:\users\nikit\projects\task a1\main.cpp
+1537780984 source:c:\users\nikit\projects\task a1\main.cpp
 	<iostream>
 	"chapter1_5.h"
 
-1537745254 c:\users\nikit\projects\task a1\chapter1_5.h
+1537781073 c:\users\nikit\projects\task a1\chapter1_5.h
 	<iostream>
 	<cmath>
 

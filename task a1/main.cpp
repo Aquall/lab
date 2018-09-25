@@ -9,6 +9,7 @@ int main()
     cout << "f2 result = "<< stu::f2(1,2,5)<< endl;
     cout << "f3 result : " ;
     stu::f3(4,3,2);
+    stu::f5(1,2,3);
 
     return 0;
 }
