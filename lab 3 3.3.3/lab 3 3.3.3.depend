@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1537906594 source:c:\users\nikit\projects\lab 3 3.3.3\main.cpp
-	<iostream>
-	"lab3.h"
-
-1537906681 c:\users\nikit\projects\lab 3 3.3.3\lab3.h
-	<cmath>
-

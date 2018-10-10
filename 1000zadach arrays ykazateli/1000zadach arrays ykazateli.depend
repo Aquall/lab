@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1539159013 source:c:\users\nikit\projects\1000zadach arrays ykazateli\main.cpp
+	<iostream>
+	"arrays e.h"
+
+1539158969 c:\users\nikit\projects\1000zadach arrays ykazateli\arrays e.h
+	<cmath>
+

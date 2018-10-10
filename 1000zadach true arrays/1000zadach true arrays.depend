@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1539200094 source:c:\users\nikit\projects\1000zadach true arrays\main.cpp
+	<iostream>
+	"arrays ee.h"
+
+1539200073 c:\users\nikit\projects\1000zadach true arrays\arrays ee.h
+	<iostream>
+	<cmath>
+
