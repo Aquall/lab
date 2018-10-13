@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1539388010 source:d:\projects\bguir\main.cpp
+	<iostream>
+	"Predicates.h"
+	"Tests.h"
+	"algoritm.h"
+	"algoritm_tests.h"
+	"predicates_tests.h"
+	"functions_tests.h"
+
+1539387823 d:\projects\bguir\predicates.h
+	<cmath>
+
+1539387823 d:\projects\bguir\tests.h
+
+1539387823 d:\projects\bguir\algoritm.h
+
+1539387823 d:\projects\bguir\algoritm_tests.h
+	"algoritm.h"
+	<cassert>
+
+1539387823 d:\projects\bguir\predicates_tests.h
+	"predicates.h"
+
+1539387823 d:\projects\bguir\functions_tests.h
+	"functions.h"
+
+1539388167 d:\projects\bguir\functions.h
+
+1539392319 source:c:\users\nikit\projects\bguir\main.cpp
+	<iostream>
+	"Predicates.h"
+	"Tests.h"
+	"algoritm.h"
+	"algoritm_tests.h"
+	"predicates_tests.h"
+	"functions_tests.h"
+
+1539388488 c:\users\nikit\projects\bguir\predicates.h
+	<cmath>
+
+1539388488 c:\users\nikit\projects\bguir\tests.h
+
+1539392391 c:\users\nikit\projects\bguir\algoritm.h
+	"functions.h"
+
+1539391939 c:\users\nikit\projects\bguir\algoritm_tests.h
+	"algoritm.h"
+	<cassert>
+
+1539389591 c:\users\nikit\projects\bguir\predicates_tests.h
+	"predicates.h"
+
+1539389594 c:\users\nikit\projects\bguir\functions_tests.h
+	"functions.h"
+
+1539391111 c:\users\nikit\projects\bguir\functions.h
+
