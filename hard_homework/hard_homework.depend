@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1540677852 source:c:\users\nikit\projects\hard_homework\main.cpp
+	<iostream>
+	<string>
+	"algorithm.h"
+
+1540677837 c:\users\nikit\projects\hard_homework\algorithm.h
+

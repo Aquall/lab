@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1540251503 source:c:\users\nikit\projects\tiger\main.cpp
+1540593452 source:c:\users\nikit\projects\tiger\main.cpp
 	<iostream>
 	"predicates.h"
 	"algorithms.h"
 
-1540251287 c:\users\nikit\projects\tiger\predicates.h
+1540591091 c:\users\nikit\projects\tiger\predicates.h
 	<iostream>
 	"vector.h"
 	<cmath>
@@ -12,7 +12,8 @@
 1540246700 c:\users\nikit\projects\tiger\vector.h
 	<iostream>
 
-1540251308 c:\users\nikit\projects\tiger\algorithms.h
+1540593452 c:\users\nikit\projects\tiger\algorithms.h
 	<iostream>
 	"vector.h"
+	<cmath>
 

@@ -2,6 +2,7 @@
 #define ALGORITHMS_H_INCLUDED
 #include <iostream>
 #include "vector.h"
+#include <cmath>
 void print_array(int* arr, int first, int last)
 {
     for(; first != last; ++first)
@@ -10,11 +11,9 @@ void print_array(int* arr, int first, int last)
     }
     std::cout << std::endl;
 }
-template <typename BinaryPredicate>
-void fill_arrays(int* arr, Vector& result1, Vector& result2, int size, BinaryPredicate p)
+template <typename UnaryPredicate>
+void fill_arrays(int* arr, Vector& result1, Vector& result2, int size, UnaryPredicate p)
 {
-    int j = 0;
-    int k = 0;
     for(int i = 0; i < size; ++i)
     {
         if(p(arr[i]))
@@ -66,12 +65,12 @@ int search(int* arr, int size, BinaryPredicate p)
     for(int i = 0; i < size; ++i)
     {
         if(p(arr[i],element))
-           {
-             element = arr[i];
-             index_element = i;
-           }
+        {
+            element = arr[i];
+            index_element = i;
+        }
     }
-    return element;
+    return  element;
 }
 int count(int* arr,int size, int value)
 {
@@ -80,7 +79,7 @@ int count(int* arr,int size, int value)
     {
         if(arr[i] == value)
         {
-        counter++;
+            counter++;
         }
     }
     return counter;
@@ -122,5 +121,75 @@ int accumulate(int* arr, int size, UnaryPredicate p)
     }
     return sum;
 }
+int* find(int* first,int* last, int value)
+{
+    for(; first != last; ++first)
+    {
+        if(*first == value)
+        {
+            return first;
+        }
+    }
+    return first;
+}
+void task2(int* arr, int size, int value)
+{
+    for(int i = 0; i < size; ++i)
+    {
+        if(std::abs(arr[i]) <= value)
+        {
+            std::cout <<  arr[i] << std::endl;
+        }
+        else
+        {
+            std::cout << "0" << std::endl;
+        }
+    }
+}
+template <typename UnaryPredicate>
+int count_if(int* arr, int first, int last, UnaryPredicate p)
+{
+    int counter = 0;
+    for(; first < last; ++first)
+    {
+        if(p(arr[first]))
+        {
+            ++counter;
+        }
+    }
+    return counter;
+}
+bool task10(int* array, int first, int last)
+{
+    int result = count_if(array, first, last, is_negative);
+    return result % 2 == 0;
+}
+template <typename UnaryPredicate>
+int find_index(int* arr, int first, int last,UnaryPredicate op)
+{
+    int el = arr[first];
+    int index_el = first;
+    for(; first < last; ++first)
+    {
+        if(op(arr[first],el))
+        {
+            el = arr[first];
+            index_el = first;
+        }
+    }
+    return index_el;
+}
+int accumulate(int* arr, int first, int last)
+{
+    int sum = 0;
+    for(; first < last; ++first)
+    {
+        sum += arr[first];
+    }
+    return sum;
+}
+
+
+
 
 #endif // ALGORITHMS_H_INCLUDED

@@ -3,6 +3,10 @@
 #include <iostream>
 #include "vector.h"
 #include <cmath>
+bool less_(int a, int b)
+{
+    return a < b;
+}
 bool is_negative(int a)
 {
     return a < 0;
