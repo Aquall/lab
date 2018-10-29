@@ -13,6 +13,17 @@ void f3(const char* str)
         std::cout << (char)i << " " <<arr[i] << std::endl;
     }
 }
+void f3_1(const char* str, char* dest, char c)
+{
+    for(;src != 0; ++src)
+    {
+        if(*src != c)
+        {
+
+        }
+    }
+}
+void f3_1(const char* str,char* dest,char c)
 int f7(const char* str)
 {
     int arr[127] {0};

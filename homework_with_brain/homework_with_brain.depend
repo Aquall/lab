@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1540849890 source:c:\users\nikit\projects\homework_with_brain\main.cpp
+	<iostream>
+	"algorithm.h"
+	"print.h"
+	"operations.h"
+	"fill.h"
+	"util.h"
+
+1540845296 c:\users\nikit\projects\homework_with_brain\algorithm.h
+	<cmath>
+
+1540846485 c:\users\nikit\projects\homework_with_brain\print.h
+
+1540849517 c:\users\nikit\projects\homework_with_brain\operations.h
+
+1540849911 c:\users\nikit\projects\homework_with_brain\fill.h
+	<vector>
+
+1540849507 c:\users\nikit\projects\homework_with_brain\util.h
+	<vector>
+
