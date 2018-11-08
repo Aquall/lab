@@ -17,6 +17,15 @@ int less_sqrt(Pair a, Pair b)
 {
     return a.first * a.second < b.first * b.second;
 }
+int greater_sqrt(Pair a, Pair b)
+{
+    return a.first * a.second > b.first * b.second;
+}
+int max_density(Pair a, Pair b)
+{
+    return a.first / a.second > b.first / b.second;
+}
+
 
 
 

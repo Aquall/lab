@@ -1,15 +1,19 @@
 # depslib dependency file v1.0
-1540932231 source:c:\users\nikit\projects\minmax\main.cpp
+1541710969 source:c:\users\nikit\projects\minmax\main.cpp
 	<iostream>
 	"algorithm.h"
 	"tasks.h"
+	"predicates.h"
 
-1540932231 c:\users\nikit\projects\minmax\algorithm.h
+1541712358 c:\users\nikit\projects\minmax\algorithm.h
 
-1540932262 c:\users\nikit\projects\minmax\tasks.h
+1541712358 c:\users\nikit\projects\minmax\tasks.h
 	"algorithm.h"
 	"data_types.h"
+	"predicates.h"
 	<cassert>
 
-1540931647 c:\users\nikit\projects\minmax\data_types.h
+1541709955 c:\users\nikit\projects\minmax\data_types.h
+
+1541712358 c:\users\nikit\projects\minmax\predicates.h
 

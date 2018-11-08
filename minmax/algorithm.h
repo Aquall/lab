@@ -14,6 +14,32 @@ Iterator find_element(Iterator first, Iterator last, BinaryPredicate p)
     }
     return element;
 }
+/*Iterator find_index_element(Iterator first, Iterator last, BinaryPredicate p)
+{
+    int element = *first;
+    int index_element = first;
+    for(; first < last; ++first)
+    {
+        if(p(*first,element))
+        {
+            element = *first;
+            index_element = first;
+
+
+        }
+    }
+    return index_element;
+}*/
+template <typename Iterator>
+Iterator counter(Iterator first, Iterator last)
+{
+    int counter = 0;
+    for(; first != last; ++ first)
+    {
+        ++counter;
+    }
+    return counter;
+}
 template <typename Iterator, typename BinaryPredicate>
 Iterator reverse_find_element(Iterator first, Iterator last, BinaryPredicate p)
 {
@@ -27,6 +53,5 @@ Iterator reverse_find_element(Iterator first, Iterator last, BinaryPredicate p)
     }
     return element;
 }
-
 
 #endif // ALGORITHM_H_INCLUDED

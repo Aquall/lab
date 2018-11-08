@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1541623213 source:c:\users\nikit\projects\analysis_element_array13.2\main.cpp
+	<iostream>
+	"algorithm.h"
+	"predicates.h"
+	"tasks.h"
+
+1541622677 c:\users\nikit\projects\analysis_element_array13.2\algorithm.h
+
+1541621160 c:\users\nikit\projects\analysis_element_array13.2\predicates.h
+
+1541623233 c:\users\nikit\projects\analysis_element_array13.2\tasks.h
+	"algorithm"
+
