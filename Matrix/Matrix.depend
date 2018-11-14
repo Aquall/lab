@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1542145057 source:c:\users\nikit\projects\matrix\main.cpp
+	<iostream>
+	"test.h"
+	"algorithm.h"
+
+1542145517 c:\users\nikit\projects\matrix\test.h
+	<iostream>
+	"algorithm.h"
+	<vector>
+
+1542144854 c:\users\nikit\projects\matrix\algorithm.h
+
